@@ -83,7 +83,24 @@ main {
   justify-content: left;
   margin-left: 100px;
 }
+ul span {
+  padding-right: 5px;
+}
 #todo_list button {
-  padding: 3px;
-  margin-left: 5px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2e2e2e;
+  border-color: aliceblue;
+}
+
+a i {
+  color: aliceblue;
+  margin: 32px;
+  border: 0;
+  padding: 0;
+}
+
+#title_icon {
+  display: flex;
+  justify-content: center;
 }
