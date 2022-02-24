@@ -41,23 +41,6 @@ body {
   background-image: url(https://i.pinimg.com/564x/7b/bb/38/7bbb38e0546215a4c4f22eca2b47c810.jpg);
 }
 
-#todo_form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin: 5px 0;
-  margin-left: 125px;
-  padding: 10px 10px;
-  box-shadow: none;
-  border: none;
-}
-#todo_form p {
-  color: rgb(223, 160, 78);
-  font-size: 21px;
-  font-weight: bold;
-}
-
 #header {
   background-color: #2e2e2e;
 
@@ -76,22 +59,8 @@ main {
   border-radius: 20px;
 }
 
-#todo_list li {
-  color: aliceblue;
-  font-size: 1rem;
-  font-weight: 600;
-  display: flex;
-  justify-content: left;
-  margin-left: 100px;
-}
 ul span {
   padding-right: 5px;
-}
-#todo_list button {
-  padding: 0px;
-  margin: 0px;
-  background-color: #2e2e2e;
-  border-color: aliceblue;
 }
 
 a i {

@@ -1,0 +1,46 @@
+#todo_form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px 0;
+  margin-left: 125px;
+  padding: 10px 10px;
+  box-shadow: none;
+  border: none;
+}
+
+#todo_form p {
+  color: rgb(223, 160, 78);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#todo_list li {
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;
+}
+
+#todo_list button,
+#human_memo button {
+  padding: 0px;
+  margin: 0px;
+  background-color: #2e2e2e;
+  border-color: aliceblue;
+}
+
+#human_memo div {
+  width: 300px;
+  background-color: aliceblue;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+#human_memo {
+  display: flex;
+  flex-wrap: wrap;
+}

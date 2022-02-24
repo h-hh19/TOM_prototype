@@ -1,6 +1,6 @@
 const toDoForm = document.getElementById("todo_form");
 const toDoInput = toDoForm.querySelector("input");
-const toDoList = document.getElementById("todo_list");
+const toDoList = document.getElementById("human_memo");
 
 const TODOS_KEY = "human";
 
@@ -18,15 +18,15 @@ function saveToDos(){
 }
 
 function paintToDo(newToDo){
-    const li = document.createElement("li");
-    li.id = newToDo.id;
+    const div = document.createElement("div");
+    div.id = newToDo.id;
     const span = document.createElement("span");
     span.innerText = newToDo.text;
     const button = document.createElement("button");
     button.innerText = "❌";
-    li.appendChild(span);
-    li.appendChild(button);
-    toDoList.appendChild(li);
+    div.appendChild(span);
+    div.appendChild(button);
+    toDoList.appendChild(div);
     button.addEventListener("click", deleteToDo);
 }
 
