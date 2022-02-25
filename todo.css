@@ -26,21 +26,39 @@
 }
 
 #todo_list button,
-#human_memo button {
+#human_memo button,
+#economy_memo button,
+#god_memo button,
+#art_memo button,
+#slef_memo button,
+#novel_memo button,
+#it_memo button {
   padding: 0px;
   margin: 0px;
   background-color: #2e2e2e;
   border-color: aliceblue;
 }
 
-#human_memo div {
+#human_memo div,
+#economy_memo div,
+#god_memo div,
+#art_memo div,
+#slef_memo div,
+#novel_memo div,
+#it_memo div {
   width: 300px;
   background-color: aliceblue;
   margin: 15px;
   border-radius: 5px;
 }
 
-#human_memo {
+#human_memo,
+#economy_memo,
+#god_memo,
+#art_memo,
+#slef_memo,
+#novel_memo,
+#it_memo {
   display: flex;
   flex-wrap: wrap;
 }
