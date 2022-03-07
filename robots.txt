@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://the-organized-mind.netlify.app/sitemap.xml

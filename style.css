@@ -29,6 +29,9 @@ a {
   color: black;
   font-size: 21px;
 }
+a:hover {
+  text-decoration: none;
+}
 
 .content {
   display: flex;
